@@ -1,5 +1,5 @@
 def calculate_overs(balls):
-    overs=balls/6
+    overs=balls//6
     ball= balls%6
     return float(f"{overs}.{ball}")
 
