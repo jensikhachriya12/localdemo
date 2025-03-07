@@ -1,4 +1,4 @@
 def get_length(num):
     length = len(num) 
-    print("The length of the number is:",length)
+    print("The length of number is:",length)
     return length
