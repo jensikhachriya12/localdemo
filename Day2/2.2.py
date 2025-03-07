@@ -1,7 +1,7 @@
 def calculate_overs(balls):
-    overs=balls//6
+    overs=balls/6
     ball= balls%6
-    return float(overs.ball)
+    return float(f"{overs}.{ball}")
 
 balls=int(input("Enter number of balls:"))
 result=calculate_overs(balls)
