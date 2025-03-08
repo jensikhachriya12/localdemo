@@ -1,5 +1,7 @@
 "Create a Basic caluclator"
 
+# Simple Python Calculator
+
 def add(x, y):
     return x + y
 
@@ -15,6 +17,7 @@ def divide(x, y):
     else:
         return "Error! Division by zero."
 
+# Main program
 def calculator():
     print("Select operation:")
     print("1. Add")
@@ -22,7 +25,7 @@ def calculator():
     print("3. Multiply")
     print("4. Divide")
 
-    choice = input("Enter choice (1/2/3/4) : ")
+    choice = input("Enter choice (1/2/3/4): ")
 
     num1 = float(input("Enter first number: "))
     num2 = float(input("Enter second number: "))
@@ -37,4 +40,6 @@ def calculator():
         print(f"{num1} / {num2} = {divide(num1, num2)}")
     else:
         print("Invalid input!")
-    calculator()
+
+# Run the calculator
+calculator()
