@@ -13,6 +13,5 @@ flavor = input("Enter the flavor name: ")
 capacity = input("Enter the capacity: ")
 
 generated_product_id = product_id(flavor, capacity)
-
 print(f"The product ID for the juice is: {generated_product_id}")
 
