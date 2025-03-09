@@ -1,7 +1,7 @@
 "Take a input to test if a string is a valid pin or not."
 
 def vaild_pin(pin):
-    if(len(pin)!=4 and len(pin)!=6 and pin.isdigit()):
+    if(len(pin)!=4 and len(pin)!=6):
         return False
     return True
 
