@@ -2,17 +2,20 @@
 "The first element should be the sum of all even numbers in the list."
 "The second element should be the sum of all odd numbers in the list."
 
-def even_odd(num):
-    even_sum=0
-    odd_sum=0
-
-    for n in num:
-        if n % 2==0:
-            even_sum=+sum
-        else:
-            odd_sum=+sum
-        return [even_sum,odd_sum]
+def sum_even_odd(numbers):
+    even_sum = 0
+    odd_sum = 0
     
-    num[1,2,5,7,8,9]
-    result = even_odd(num)
-    print("result is :",result)
+    for num in numbers:
+        if num % 2 == 0:  
+            even_sum += num
+        else:  
+            odd_sum += num
+    
+    return [even_sum, odd_sum]
+
+
+numbers = [1, 2, 3, 4, 5, 6]
+result = sum_even_odd(numbers)
+print("Output:", result)
+
