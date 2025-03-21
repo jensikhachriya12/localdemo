@@ -1,0 +1,12 @@
+{
+      "stud1": {
+            "name": "Lisa",
+            "roll.no": 25,
+            "age": "34"
+      },
+      "stud2": {
+            "name": "Elis",
+            "roll.no": 52,
+            "age": "24"
+      }
+}

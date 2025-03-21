@@ -17,6 +17,6 @@ def calculate(num1, num2, operator):
 
 
 
-num1, num2, operator = 10, 5, '-'
+num1, num2, operator = 15, 52, '*'
 calc_result = calculate(num1, num2, operator)
 print("Calculation result:", calc_result)

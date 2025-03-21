@@ -8,7 +8,7 @@ def sum_of_even_elements(matrix):
                 total += num
     return total
 
-# Example usage:
+
 matrix = [
     [1, 2, 3],
     [10,25,86],
